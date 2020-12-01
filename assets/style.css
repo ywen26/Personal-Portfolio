@@ -1,3 +1,8 @@
+nav {
+    box-shadow: 0 4px 2px -2px gray;
+    background-color: rgb(236, 233, 233);
+}
+
 .navbar-brand {
     font-size: 200%;
     margin-left: 50px;
@@ -17,11 +22,14 @@
     width: 80%;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .work {
     transition: .5s ease;
     cursor: pointer;
 }
-
 
 .work-1 {
     background-image: url("./images/project-1.jpg");
@@ -102,7 +110,6 @@
 
 .work:hover {
     background-image: url("./images/bc-image.png");
-    text-decoration: none;
 }
 
 .title {
@@ -130,4 +137,22 @@
     justify-content: center;
     margin-top: 15px;
     opacity: 0.5;
+}
+
+@media screen and (max-width: 576px) {
+    .navbar-brand {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .contact-list {
+        flex-direction: column;
+        align-items: center;
+    }
 }
