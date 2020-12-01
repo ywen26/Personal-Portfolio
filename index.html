@@ -15,13 +15,13 @@
         <div class="navbar-collapse justify-content-end">
           <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#about" href="#">About</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Work</a>
+                <a class="nav-link" href="#work">Work</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact" href="#">Contact</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="#">Resume</a>
@@ -30,7 +30,7 @@
         </div>
     </nav>
 
-    <section class="row">
+    <section id="about" class="row">
         <div class="col-lg-5 mt-5 pl-5">
             <img class="pic" src="./assets/images/my-image.JPG">
         </div>
@@ -56,17 +56,23 @@
         </div>
     </section>
     <hr>
-    <section class="row">
+    <section id ="work" class="row">
         <!-- <h3 class="justify-content-center">Explore My Works!</h3> -->
-        <div class="work work-1 col-lg-3 ml-5 mt-5">
-            <h5 class="title">NASA Search Engine</h5>
-        </div>
-        <div class="work work-2 col-lg-3 ml-5 mt-5">
-            <h5 class="title">Weather Dashboard</h5>
-        </div>
-        <div class="work work-3 col-lg-3 ml-5 mt-5">
-            <h5 class="title">Quiz Game</h5>
-        </div>
+        <a class="work work-1 col-lg-3 ml-5 mt-5" href="https://am-white.github.io/Nasa-Search-Engine/">
+            <div>
+                <h5 class="title">NASA Image Search Engine</h5>
+            </div>
+        </a>
+        <a class="work work-2 col-lg-3 ml-5 mt-5" href="https://ywen26.github.io/Weather-Dashboard/">
+            <div>
+                <h5 class="title">Weather Dashboard</h5>
+            </div>
+        </a>
+        <a class="work work-3 col-lg-3 ml-5 mt-5" href="https://ywen26.github.io/Code-Quiz/">
+            <div>
+                <h5 class="title">Quiz Game</h5>
+            </div>
+        </a>
         <div class="work work-4 col-lg-3 ml-5 mt-5">
             <h5 class="title">Coming soon...</h5>
         </div>
@@ -84,7 +90,7 @@
         </div>
     </section>
     <hr>
-    <section>
+    <section id="contact">
         <div class="contact-list">
             <a class="icon">
                 <i class="fas fa-phone"></i> (206)235-1576
@@ -104,8 +110,8 @@
         </div>
     </section>
 
-    <footer>
-        <p></p>
+    <footer class="footer" class="bg-light">
+        <p>&copy; Yuwen Yu all rights reserved 2020</p>
     </footer>
 </body>
 </html>

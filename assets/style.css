@@ -19,7 +19,9 @@
 
 .work {
     transition: .5s ease;
+    cursor: pointer;
 }
+
 
 .work-1 {
     background-image: url("./images/project-1.jpg");
@@ -100,6 +102,7 @@
 
 .work:hover {
     background-image: url("./images/bc-image.png");
+    text-decoration: none;
 }
 
 .title {
@@ -120,4 +123,11 @@
     font-size: 25px;
     color: black;
     padding: 0 20px 0 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    opacity: 0.5;
 }
