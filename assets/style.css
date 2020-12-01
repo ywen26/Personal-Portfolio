@@ -17,6 +17,10 @@
     width: 80%;
 }
 
+.work {
+    transition: .5s ease;
+}
+
 .work-1 {
     background-image: url("./images/project-1.jpg");
     background-size: cover;
@@ -87,4 +91,33 @@
     width: 80%;
     height: 200px;
     border: 3px solid grey;
+}
+
+.work:hover .title {
+    opacity: 1;
+    display: block;
+}
+
+.work:hover {
+    background-image: url("./images/bc-image.png");
+}
+
+.title {
+    display: none;
+    color: white;
+    transition: .5s ease;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.contact-list {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 25px;
+    color: black;
+    padding: 0 20px 0 20px;
 }
